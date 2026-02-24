@@ -1,16 +1,51 @@
-# React + Vite
+# Pomodoro To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Pomodoro Timer and Task Management application built with **React**, **Vite**, and **Tailwind CSS**. This app helps users manage their time effectively using the Pomodoro technique while keeping track of their daily tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pomodoro Timer:** Custom intervals for focus and breaks.
+- **Task Management:** Add, complete, and manage your to-do list.
+- **Audio Feedback:** Interactive sound effects for timer events (`tick`, `click`).
+- **Responsive Design:** Styled with Tailwind CSS for a seamless experience across devices.
+- **Fast Build:** Powered by Vite for an optimized development workflow.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React (JSX)
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Linting:** ESLint
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Astappetto02/pomodoro-todo.git
+   cd pomodoro-todo
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+- `src/App.jsx`: Main application logic and UI.
+- `src/assets/sounds/`: Audio files for timer notifications.
+- `public/`: Static assets like icons and images.
+- `tailwind.config.js`: Tailwind CSS configuration.
+
+---
+Made with ❤️ by [Astappetto02](https://github.com/Astappetto02)
